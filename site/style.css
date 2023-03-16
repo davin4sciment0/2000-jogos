@@ -2,3 +2,8 @@
     margin: 0px;
     padding: 0px;
 }
+#titulo{
+    font-family:Verdana;
+    text-align: center;
+    margin: 45px;
+}
