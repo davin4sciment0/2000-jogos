@@ -5,12 +5,17 @@
 body{
     background-color: rgb(15, 15, 15);
 }
-#titulo{
-    font-family:Verdana;
+.container{
+    position: relative;
+    width:900;
+    height: 100px;
+    margin: 60px auto 0px auto;
     text-align: center;
-    color: white;
-    margin: 45px;
 }
+#logo{
+    margin: 0 auto;
+}
+
 #card_flipe{
     position: relative;
     background-image: url(img/Fliperama.jpg);
@@ -20,7 +25,7 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 16px;
-    margin: 80px auto 0px auto;
+    margin: 30px auto 0px auto;
 }
 #flipe{
     position: absolute;
