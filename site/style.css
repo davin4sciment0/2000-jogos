@@ -2,8 +2,40 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    background-color: rgb(15, 15, 15);
+}
 #titulo{
     font-family:Verdana;
     text-align: center;
+    color: white;
     margin: 45px;
 }
+#card_flipe{
+    position: relative;
+    background-image: url(img/Fliperama.jpg);
+    background-repeat: no-repeat;
+    width: 760px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    margin: 80px auto 0px auto;
+}
+#flipe{
+    position: absolute;
+    top: 330px;
+    left: 45px;
+    font-family: Verdana;
+    color: white;
+    font-size: 25px;
+}
+.paragrafo{
+    font-family: Verdana;
+    font-size: 15px;
+    color:rgb(153, 153, 153);
+    text-align: center;
+    width: 700px;
+    margin: 40px auto 40px auto;
+}
+
