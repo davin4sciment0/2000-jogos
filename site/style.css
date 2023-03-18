@@ -15,25 +15,39 @@ body{
 #logo{
     margin: 0 auto;
 }
-
-#card_flipe{
+.content{
+    position: relative;
+    height:400px;
+    width: 900px;
+    margin: 0 auto;
+    background-image: linear-gradient(black);
+}
+.card_flipe{
     position: relative;
     background-image: url(img/Fliperama.jpg);
     background-repeat: no-repeat;
     width: 760px;
-    height: 400px;
-    justify-content: center;
-    align-items: center;
+    height: 400px; 
     border-radius: 16px;
-    margin: 30px auto 0px auto;
+    margin: 20px auto 20px auto;
 }
 #flipe{
     position: absolute;
-    top: 330px;
-    left: 45px;
+    top: 250px;
+    left: 150px;
     font-family: Verdana;
     color: white;
-    font-size: 25px;
+    font-size: 35px;
+    opacity: 0;
+}
+.content:hover .card_flipe{
+    opacity: 40%;
+    transition: 2s;
+}
+.content:hover #flipe{
+    top: 300px;
+    opacity: 100%;
+    transition: 1s;
 }
 .paragrafo{
     font-family: Verdana;
